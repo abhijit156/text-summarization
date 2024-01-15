@@ -11,7 +11,8 @@ This repo was created to summarize Wikilingua dataset
 Install following dependencies (on macOS):
 
 - Python packages: run `pip3 install -r requirements.txt`
-- Download `mistral-7b-openorca.Q5_K_M.gguf` model from Hugging Face [TheBloke/Mistral-7B-OpenOrca-GGUF](https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/tree/main) repo into local `models` directory.
+- Download `mistral-7b-v0.1.Q2_K.gguf` model from Hugging Face [TheBloke/Mistral-7B-v0.1-GGUF](https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF) repo into local `models` directory.
+- Download `llama-2-7b-Q2_K.gguf` model from Hugging Face [TheBloke/Llama-2-7B-GGUF]([https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF(https://huggingface.co/TheBloke/Llama-2-7B-GGUF/tree/main)) repo into local `models` directory.
 
 ## Running
 Simply run 'python summarization_script.py'
